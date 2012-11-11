@@ -1,0 +1,4 @@
+*.swp
+
+chef-stacktrace.out
+jdk*.tar.gz
