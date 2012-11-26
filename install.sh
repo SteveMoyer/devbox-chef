@@ -16,5 +16,5 @@ if ! test -f "$chef_binary"; then
     sudo gem1.9.1 install --no-rdoc --no-ri chef --version 10.16.2
 fi &&
 
-"$chef_binary" -c solo.rb -j solo.json
+"$chef_binary" -c solo.rb -j $1
 
